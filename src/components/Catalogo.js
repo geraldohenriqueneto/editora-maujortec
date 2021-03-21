@@ -14,7 +14,7 @@ const Catalogo = ({ livros }) => {
                         </li>
                     ))}
             </ol>
-            <h2>Categoria Programação</h2>
+            <h2>Categoria Programação - Teste</h2>
             <ol>
                 {livros
                     .filter(livro => livro.categoria === "programacao")
